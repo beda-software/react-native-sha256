@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.license      = package["license"]
   s.platform     = :ios, "8.0"
 
-  s.source       = { :git => "https://github.com/itinance/react-native-sha256.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/beda-software/react-native-sha256.git", :tag => "#{s.version}" }
   s.source_files = "ios/**/*.{h,m,swift}"
   s.preserve_paths  = "**/*.js"
 
